@@ -12,4 +12,8 @@ stage("Test") {
   sh "mvn clean test"
  
 }
+  
+ stage("Deploy") {
+    deploy()
+        }
 }
