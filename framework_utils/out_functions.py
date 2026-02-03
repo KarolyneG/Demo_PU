@@ -116,4 +116,4 @@ def get_environment(adb_cluster_name:str):
         env="dev"
     else:
         env="prd"
-    --return env
+    return env
