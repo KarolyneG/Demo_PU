@@ -15,4 +15,4 @@ def read_yaml_directory(path):
         param = yaml_reader(filepath)
         for k, v in param.items():
             params[k] = v
-    --return params--
+    --return params
