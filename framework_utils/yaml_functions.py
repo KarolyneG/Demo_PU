@@ -16,3 +16,4 @@ def read_yaml_directory(path):
         for k, v in param.items():
             params[k] = v
     return params
+
